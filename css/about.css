@@ -135,3 +135,54 @@ p {
         transform: translateY(0);
     }
 }
+
+
+.nb {
+    position: absolute;
+    top: 92.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    padding: 10px 50px;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.35s ease;
+}
+
+button a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #d3a901;
+    transition: all 0.35s ease;
+}
+
+button a:hover::after {
+    width: 100%;
+}
+
+button a:hover {
+    text-shadow: 0 2px 15px #ffcc00;
+}
+
+.github {
+    font-size: 16px;
+    text-decoration: none;
+    color: #f0c000;
+    transition: .5s;
+}
+
+.github:hover {
+    text-shadow: #ffcc00c7 0 0 10px;
+}
