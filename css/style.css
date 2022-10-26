@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/home-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    animation: zoom 1.2s ease-in-out;
+}
+
+@keyframes zoom {
+    0% {
+        background-size: 120%;
+    }
+    100% {
+        background-size: 100%;
+    }
+}
+  
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: rgba(20, 20, 20, 0.85);
+    color: white;
+}
+
+.logo {
+    max-width: 180px;
+    cursor: pointer;
+    margin-right: auto;
+    transition: .5s;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.navbar {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.navbar li a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.navbar li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #d3a901;
+    transition: all 0.3s ease;
+}
+
+.navbar li a:hover::after {
+    width: 100%;
+}
+
+.navbar li a:hover {
+    text-shadow: 0 5px 15px #ffcc00;
+}
+
+.content {
+    display: flex;
+    height: 25%;
+    width: 40%;
+    align-items: center;
+    margin-top: 17%;
+    margin-left: 12%;
+    cursor: default;
+    /* background-color: #d3a901; */
+    animation: animate 1.2s;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h1 {
+    letter-spacing: 5px;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 500;
+    transition: .5s;
+}
+
+h1:hover {
+    transform: scale(1.05);
+}
+
+p {
+    justify-content: center;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.p-des {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 130px;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 50px;
+    background: transparent;
+    border: 2px solid #d3a901;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: .35s ease-out;
+}
+
+.button-des {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.button-des a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button:hover {
+    box-shadow: 0 0 20px 0 #d3a901;
+    text-shadow: 0 0 15px #ffffff;
+    background: #d3a901;
+}
