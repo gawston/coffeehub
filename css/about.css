@@ -78,24 +78,24 @@ header {
 }
 
 .content {
+    text-align: center;
     width: 40%;
     height: auto;
     /* background-color: rgba(0, 0, 0, 0.733); */
-    margin-top: 13%;
-    margin-left: 10%;
+    margin-top: 5%;
+    margin-left: 30%; 
     animation: animate 1.2s;
     cursor: default;
 }
+
 
 h1 {
     position: relative;
     font-size: 50px;
     font-weight: 600;
-    margin: 20px 0;
     color: #f0c000;
     /* animation: waviy 3.5s linear infinite; */
     transition: 0.5s;
-    width: 45%;
     /* background-color: #fff; */
 }
 
