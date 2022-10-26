@@ -183,6 +183,8 @@ button a:hover {
     transition: .5s;
 }
 
+
 .github:hover {
+    font-size: 17px;
     text-shadow: #ffcc00c7 0 0 10px;
 }
