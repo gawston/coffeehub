@@ -10,7 +10,7 @@
 .container {
     width: 100vw;
     height: 100vh;
-    background-image: url(../img/Artboard\ 2.jpg);
+    background-image: url(../img/Artboard\ 12.jpg);
     background-size: cover;
     background-position: center;
     animation: zoom 1s ease-in-out;
@@ -79,7 +79,7 @@ header {
 
 .content {
     width: 80%;
-    height: 50%;
+    height: auto;
     /* background-color: rgba(0, 0, 0, 0.733); */
     margin-top: 15%;
     margin-left: 10%;
@@ -106,13 +106,12 @@ h1 {
     color: #f0c000;
     /* animation: waviy 3.5s linear infinite; */
     transition: 0.5s;
-    width: 38%;
+    width: 55%;
     /* background-color: #fff; */
 }
 
 h1:hover {
     text-shadow: #ffcc00c7 0 0 20px;
-    /* transform: scale(1.03); */
 }
 
 @keyframes waviy {
