@@ -84,9 +84,9 @@ header {
 .content {
     display: flex;
     height: 25%;
-    width: 40%;
+    width: auto;
     align-items: center;
-    margin-top: 17%;
+    margin-top: 350px;
     margin-left: 12%;
     cursor: default;
     /* background-color: #d3a901; */
