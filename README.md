@@ -1,4 +1,4 @@
 # coffeehub-website
-Project website for Fun of IT
+Project website Fun of IT
 
 Preview : https://gawston.github.io/coffeehub
